@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Exercise from Udemy Advanced CSS and Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lastobelus/natours.git"
+  },
+  "author": "Michael Johnston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lastobelus/natours/issues"
+  },
+  "homepage": "https://github.com/lastobelus/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
