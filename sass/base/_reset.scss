@@ -10,3 +10,7 @@ html {
   /* default browser font-size is 16px, we want 10px */
   font-size: 62.5%; 
 }
+
+body {
+  box-sizing: border-box;
+}
