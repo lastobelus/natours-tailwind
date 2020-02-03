@@ -14,8 +14,8 @@
 `postcss-easings` -- easings from https://easings.net/en -- awesome, should use
 `postcss-scss` -- parse scss mixins as @rules, and scss variables as properties
 `postcss-utilities` -- a bunch of useful utilities. Useful if only for triangles
+`postcss-write-svg` -- declarative syntax for writing simple svg inline in css
 
 # Alternatives
 `precss` -- https://github.com/jonathantneal/precss, uses postcss-advanced-variables, postcss-atroot, postcss-extend-rule, postcss-nested, postcss-preset-env, postcss-property-lookup
 gives you $vars, everywhere. But may be out-of-date? last updates 15mo ago
-`postcss-write-svg` -- declarative syntax for writing simple svg inline in css

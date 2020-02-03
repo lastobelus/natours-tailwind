@@ -4,9 +4,10 @@
   "description": "Exercise from Udemy Advanced CSS and Sass",
   "main": "index.js",
   "scripts": {
-    "serve": "cross-env NODE_ENV=development concurrently \"postcss public/tailwind.css -o public/build/tailwind.css --watch\"  \"live-server ./public\"",
-    "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
-    "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css",
+    "serve": "cross-env NODE_ENV=development concurrently \"postcss styles/main.css -o public/css/style.css --watch\"  \"live-server ./public\"",
+    "development": "cross-env NODE_ENV=development postcss styles/main.css -o public/css/style.css",
+    "production": "cross-env NODE_ENV=production postcss styles/main.css -o public/css/style.css",
+    "test": "cross-env NODE_ENV=test postcss test.css -o public/css/test.css",
     "start": "npm run serve"
   },
   "repository": {
