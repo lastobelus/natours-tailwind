@@ -24,6 +24,7 @@
     "autoprefixer": "^9.5.1",
     "postcss-custom-properties": "^9.0.2",
     "postcss-functions": "^3.0.0",
+    "postcss-hexrgba": "^2.0.0",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
     "tailwindcss": "^1.0"
