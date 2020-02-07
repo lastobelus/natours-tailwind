@@ -8,6 +8,8 @@ module.exports = {
     require("postcss-import"),
     require("tailwindcss"),
     require('postcss-nested'),
+    require('postcss-custom-properties')({preserve: false}),
+    require('postcss-hexrgba'),
     require("autoprefixer"),
     ...(process.env.NODE_ENV === "production"
       ? [purgecss, require("cssnano")]
