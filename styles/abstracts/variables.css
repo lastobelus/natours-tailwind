@@ -1,32 +1,15 @@
-// COLORS:
-
-$colors: (
-  primary: #55c57a,
-  primary-light: #7ed56f,
-  primary-dark: #28b485,
-
-  secondary-light: #ffb900,
-  secondary-dark: #ff7730,
-
-  tertiary-light: #2998ff,
-  tertiary-dark: #5643fa,
-
-  grey-dark: #777,
-  grey-light-1: #f7f7f7,
-  grey-light-2: #eee,
-
-  white: #fff,
-  black: #000
-);
-
-@function color($key) {
-  @if map-has-key($colors, $key) {
-    @return map-get($colors, $key);
-  }
-
-  @warn "Unknown `#{$key}` in $colors.";
-  @return null;
+:root {
+  --color-primary: #55c57a;
+  --color-primary-light: #7ed56f;
+  --color-primary-dark: #28b485;
+  --color-secondary-light: #ffb900;
+  --color-secondary-dark: #ff7730;
+  --color-tertiary-light: #2998ff;
+  --color-tertiary-dark: #5643fa;
+  --color-grey-dark: #777;
+  --color-grey-light-1: #f7f7f7;
+  --color-grey-light-2: #eee;
+  --color-white: #fff;
+  --color-black: #000;
+  --default-font-size: 1.6rem;
 }
-
-// FONT
-$default-font-size: 1.6rem;

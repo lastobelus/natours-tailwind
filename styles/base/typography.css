@@ -1,0 +1,19 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--color-grey-dark);
+}
+
+
+.heading {
+  &-primary {
+    backface-visibility: hidden;
+    &--main {
+      letter-spacing: 3.5rem;
+      animation-name: moveInLeft 0.8s ease-in;
+    }
+    &--sub {
+      letter-spacing: 1.75rem;
+      animation: moveInRight 0.8s ease-in;
+    }
+  }
+}

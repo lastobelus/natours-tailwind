@@ -1,0 +1,49 @@
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    @apply relative inline-block px-16 py-6 no-underline uppercase rounded-full;
+    transition: all 0.2s;
+    font-size: $default-font-size;
+  }
+  &:hover {
+    @apply shadow-xl;
+    transform: translateY(-0.3rem);
+
+    &::after {
+      transform: scaleX(1.4 ) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+  
+  &:active,
+  &:focus {
+    @apply shadow-lg;
+    transform: translateY(-0.1rem);
+  }
+  
+  &--white {
+    @apply bg-white;
+    color: var(--color-grey-dark);
+    &:after {
+      @apply bg-white;
+    }
+  }
+  
+  &:after {
+    content: "";
+    @apply absolute top-0 left-0 inline-block w-full h-full rounded-full;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  
+  
+ 
+  &--animated {
+    animation: moveInBottom 0.5s ease-out .75s;
+    animation-fill-mode: backwards;
+  }
+}
+
+
